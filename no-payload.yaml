@@ -1,0 +1,9 @@
+config:
+  target: '<url>'
+  phases:
+    - duration: 4
+      arrivalRate: 1
+scenarios:
+  - flow:
+    - get:
+        url: "<url>"
